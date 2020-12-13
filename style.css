@@ -9,11 +9,12 @@ body{
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+    background: radial-gradient(rgb(238, 231, 231), #bbbbbb);
 }
 nav{
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 nav ul{
     display: inline-block;
@@ -148,8 +149,6 @@ p{
 .col-5 img:hover{
     filter: grayscale(0 );
 }
-
-/* PONUDA MOBITELA */
 
 /* Ponuda mobitela*/
 
@@ -348,10 +347,10 @@ input[type="submit"]:hover{
 
 @media only screen and (max-width: 800px){
     nav ul{
-        position: absolute;
-        top: 150px;
+        position: static;
+        top: 10px;
         left: 0;
-        background: #333;
+        background: rgb(189, 189, 189);
         width: 100%;
         transition: 1s;
     }
@@ -362,7 +361,7 @@ input[type="submit"]:hover{
         margin-bottom: 10px;
     }
     nav ul li a{
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
 }
 /* MEDIA  manje od 600px*/
