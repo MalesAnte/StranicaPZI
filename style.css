@@ -34,8 +34,8 @@ p{
 .container{
     max-width: 1300px;
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .row{
     display: flex;
@@ -356,7 +356,7 @@ input[type="submit"]:hover{
     }
     nav ul li{
         display: block;
-        margin-right: 50px;
+        margin-right: 0px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
