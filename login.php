@@ -8,24 +8,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=sqap" 
     rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <a href="index.html"></a>
-    <a href="#"></a>
-    <a href="login.html"></a>
+    <a href="index.php"></a>
+    <a href="ponuda.php"></a>
+    <a href="login.php"></a>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
             <nav>
                 <ul id="MeniItems">
-                    <li><a href="index.html"><b>HOME</b></a></li>
-                    <li><a href="#"><b>PONUDA</b></a></li>
-                    <li><a href="login.html"><b>PRIJAVA</b></a></li>
+                <li><a href="index.php"><b>HOME</b></a></li>
+                    <li><a href="ponuda.php"><b>PONUDA</b></a></li>
+                    <li><a href="login.php"><b>PRIJAVA</b></a></li>
                 </ul>
             </nav>
         </div>
     </div>
 
-    <br><br><br><br><br><br><br>
+    <br><br><br><br>
+    
 <!--- PRIJAVA --->
 
 <div class="prijava">
@@ -34,18 +35,8 @@
             <div class="col-2">
                 <div class="form-container">
                     <div class="center">
-                        <h1>Registriraj se!</h1>
+                        <h1>Prijavi se</h1>
                         <form method="post">
-                            <div class="txt_field">
-                                <span></span>
-                                <input type="text" required>
-                                <label>Ime</label>
-                            </div>
-                            <div class="txt_field">
-                                <span></span>
-                                <input type="text" required>
-                                <label>Prezime</label>
-                            </div>
                             <div class="txt_field">
                                 <span></span>
                                 <input type="text" required>
@@ -56,9 +47,9 @@
                                 <input type="password" required>
                                 <label>Lozinka</label>
                             </div>
-                            <input type="submit" value="Registriraj se">
+                            <input type="submit" value="Prijavi se">
                             <div class="registrirajse">
-                                <p>Ako ste se već bili registrirali stisnite <a href="login.html">ovdje</a></p>
+                                <p>Nemate račun? Napravite ga <a href="register.php">ovdje</a></p>
                             </div>
                         </form>
                     </div>

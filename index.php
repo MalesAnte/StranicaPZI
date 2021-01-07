@@ -1,3 +1,13 @@
+<?php 
+
+include("dp.php");
+
+$upit = "SELECT * FROM korisnik";
+
+$rezultat = mysqli_query($konekcija, $upit);
+?>
+
+
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
@@ -7,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=sqap" 
     rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <a href="index.html"></a>
-    <a href="#"></a>
-    <a href="login.html"></a>
+    <a href="index.php"></a>
+    <a href="ponuda.php"></a>
+    <a href="login.php"></a>
 </head>
 <body>
     <div class="header">
@@ -17,9 +27,9 @@
             <div class="navbar">
                 <nav>
                     <ul id="MeniItems">
-                        <li><a href="index.html"><b>HOME</b></a></li>
-                        <li><a href="#"><b>PONUDA</b></a></li>
-                        <li><a href="login.html"><b>PRIJAVA</b></a></li>
+                    <li><a href="index.php"><b>HOME</b></a></li>
+                    <li><a href="ponuda.php"><b>PONUDA</b></a></li>
+                    <li><a href="login.php"><b>PRIJAVA</b></a></li>
                     </ul>
                 </nav>
             </div>
